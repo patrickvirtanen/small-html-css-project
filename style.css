@@ -1,0 +1,28 @@
+body {
+  background-color: aqua;
+}
+h1 {
+  color: pink;
+  background-color: aqua;
+  font-size: 50px;
+}
+
+h2 {
+  color: aliceblue;
+  font-size: 25px;
+}
+
+h1,
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  color: gray;
+  text-align: justify;
+  font-size: 18px;
+}
+
+strong {
+  color: purple;
+}
