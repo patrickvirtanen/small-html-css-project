@@ -1,15 +1,23 @@
-body {
-  background-color: aqua;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 h1 {
   color: pink;
-  background-color: aqua;
   font-size: 50px;
+  margin-bottom: 20px;
 }
 
 h2 {
-  color: aliceblue;
+  color: rgba(225, 116, 240, 0.52);
   font-size: 25px;
+  margin-bottom: 15px;
 }
 
 h1,
@@ -25,4 +33,50 @@ p {
 
 strong {
   color: purple;
+}
+
+.main-text {
+  padding: 0 2em 0 2em;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+
+.author-text {
+  font-size: 22px;
+  float: left;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.container {
+  width: 1140px;
+  margin: 30px auto 0 auto;
+}
+
+.blog-post {
+  background-color: papayawhip;
+  width: 75%;
+  float: left;
+  padding-right: 30px;
+}
+
+.other-post {
+  width: 25%;
+  float: left;
+}
+
+.author-post {
+  width: 100%;
+  border-top: 1px solid rgb(97, 96, 96);
+  padding: 20px;
+}
+.other {
+  margin-bottom: 40px;
+}
+
+.author-post img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  float: left;
 }
